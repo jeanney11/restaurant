@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+
+    <!--------- Favicon -------------->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+    <!------------ css --------------->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!--------- Google Fonts -------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"/>
+    <!--------- preload images -------------->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" media="min-width(768px)">
+    <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png" media="min-width(768px)">
+    <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+
+
+  </head>
+  <body>
+
+<!------------- HEADER ----------->
+<header class="header  active" data-header="">
+<div class="container">
+
+    <h1>
+        <a href="#" class="logo">Foodie <span class="span">.</span></a>
+    </h1>
+
+    <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+            <li class="nav-item">
+                <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#food-menu" class="navbar-link" data-nav-link>Shop</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="navbar-link" data-nav-link>Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="header-btn-group">
+
+        <button class="search-btn" aria-label="Search" data-search-btn>
+            <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <button class="btn btn-hover">Reservation</button>
+
+        <button class="nav-toggle-btn  active" aria-label="Toggle Menu" data-nav-toggle-btn>
+            <span class="line top"></span>
+            <span class="line middle"></span>
+            <span class="line bottom"></span>
+        </button>
+
+    </div>
+</div>
+</header>
+
+
+<!------------- SEARCH BOX ----------->
+
+<div class="search-container" data-search-container>
+
+    <div class="search-box">
+        <input type="search" name="search" aria-label="
+        Search here" placeholder="Type keywords here ..." class="search-input">
+
+        <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
+            <ion-icon name="search-outline"></ion-icon>
+        </button>
+    </div>
+
+    <button class="search-close-btn" aria-label="Cancel search" data-search.close-btn>
+
+    </button>
+
+</div>
+
+
+<main>
+    <article>
+        <!------------- SEARCH BOX ----------->
+        <section class="hero" id="home" style="background-image: url('./assets/images/hero-bg.jpg');">
+            <div class="container">
+
+                <div class="hero-content">
+
+                    <p class="hero-subtitle">Eat Sleep And</p>
+
+                    <h2 class="h1 hero-title">Supper delicious Burger in town!</h2>
+
+                    <p class="hero-text">
+                        Food is any substance consumed to provide nutritional support for an organism.
+                    </p>
+
+                    <button class="btn">Book a Table</button>
+                </div>
+
+                <figure class="hero-banner">
+                    <img src="./assets/images/hero-banner-bg.png" width="820" height="716" loading="lazy"
+                     alt="" class="w-100 hero-img-bg">
+                     <img src="./assets/images/hero-banner.png" width="700" height="637" loading="lazy"
+                     class="w-100 hero-img" alt="Burger">
+
+                </figure>
+            </div>
+        </section>
+
+        <!------------- SEARCH BOX ----------->
+        <section class="section section-divider white promo">
+            <div class="container">
+
+                <ul class="promo-list has-scrollbar">
+
+                    <li class="promo-item">
+                        <div class="promo-card">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none">
+
+                                </svg>
+                            </div>
+
+                            <h3 class="h3 card-title">Maxican Pizza</h3>
+
+                            <p class="card-text">
+                                Food is any substance consumed to provide nutritional support for an organism.
+                            </p>
+
+                            <img src="./assets/images/promo-1.png" width="300" height="300" loading="lazy" alt="Maxican Pizza" class="w-100 card-banner">
+                        </div>
+                    </li>
+
+                    <li class="promo-item">
+                        <div class="promo-card">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none" xmlns:v="http//vecta.io/nano">
+                                    <g clip-path="url(#A)" fill="#ff9d2d">
+                                        <path d="M40.1371 34.8084H9.86292C8.55793 34.8084 7.5 33.7505 7.5 32.4454V31.9802C7.5 30.6752 8.55793 29.6173 9.86292 29.6173H40.1372C41.4421 29.6173 42.5001 30.6752 42.5001 31.9802V32.4454C42.5 33.7505 41.4421 34.8084 40.1371 34.8084V34.8084Z" fill="#E94444"/>">
+                                    </g>
+                                <defs>
+                                <clipPath id="A">
+                                <path fill="#ff9d2d" d="M0 0h60v60H0z">
+                                </clipPath>
+                                </defs>   
+                                </svg>
+                            </div>
+
+                            <h3 class="h3 card-title">Soft Drinks</h3>
+
+                            <p class="card-text">
+                                Food is any substance consumed to provide nutritional support for an organism.
+                            </p>
+
+                            <img src="./assets/images/promo-2.png" width="300" height="300" loading="lazy" alt="Maxican Pizza" class="w-100 card-banner">
+                        </div>
+                    </li>
+
+                    <li class="promo-item">
+                        <div class="promo-card">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none" xmlns:v="http//vecta.io/nano">
+                                    <g clip-path="url(#A)" fill="#ff9d2d">
+                                        <path d="M40.1371 34.8084H9.86292C8.55793 34.8084 7.5 33.7505 7.5 32.4454V31.9802C7.5 30.6752 8.55793 29.6173 9.86292 29.6173H40.1372C41.4421 29.6173 42.5001 30.6752 42.5001 31.9802V32.4454C42.5 33.7505 41.4421 34.8084 40.1371 34.8084V34.8084Z" fill="#E94444"/>">
+                                    </g>
+                                <defs>
+                                <clipPath id="A">
+                                <path fill="#fff" d="M0 0h60v60H0z">
+                                </clipPath>
+                                </defs>   
+                                </svg>
+                            </div>
+
+                            <h3 class="h3 card-title">French Fry</h3>
+
+                            <p class="card-text">
+                                Food is any substance consumed to provide nutritional support for an organism.
+                            </p>
+
+                            <img src="./assets/images/promo-3.png" width="300" height="300" loading="lazy" alt="Maxican Pizza" class="w-100 card-banner">
+                        </div>
+                    </li>
+
+                    <li class="promo-item">
+                        <div class="promo-card">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none" xmlns:v="http//vecta.io/nano">
+                                    <g clip-path="url(#A)" fill="#ff9d2d">
+                                        <path d="M40.1371 34.8084H9.86292C8.55793 34.8084 7.5 33.7505 7.5 32.4454V31.9802C7.5 30.6752 8.55793 29.6173 9.86292 29.6173H40.1372C41.4421 29.6173 42.5001 30.6752 42.5001 31.9802V32.4454C42.5 33.7505 41.4421 34.8084 40.1371 34.8084V34.8084Z" fill="#E94444"/>">
+                                    </g>
+                                <defs>
+                                <clipPath id="A">
+                                <path fill="#fff" d="M0 0h60v60H0z">
+                                </clipPath>
+                                </defs>   
+                                </svg>
+                            </div>
+
+                            <h3 class="h3 card-title">Burger Kingo</h3>
+
+                            <p class="card-text">
+                                Food is any substance consumed to provide nutritional support for an organism.
+                            </p>
+
+                            <img src="./assets/images/promo-4.png" width="300" height="300" loading="lazy" alt="Maxican Pizza" class="w-100 card-banner">
+                        </div>
+                    </li>
+
+                    <li class="promo-item">
+                        <div class="promo-card">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none" xmlns:v="http//vecta.io/nano">
+                                    <g clip-path="url(#A)" fill="#ff9d2d">
+                                        <path d="M40.1371 34.8084H9.86292C8.55793 34.8084 7.5 33.7505 7.5 32.4454V31.9802C7.5 30.6752 8.55793 29.6173 9.86292 29.6173H40.1372C41.4421 29.6173 42.5001 30.6752 42.5001 31.9802V32.4454C42.5 33.7505 41.4421 34.8084 40.1371 34.8084V34.8084Z" fill="#E94444"/>">
+                                    </g>
+                                <defs>
+                                <clipPath id="A">
+                                <path fill="#fff" d="M0 0h60v60H0z">
+                                </clipPath>
+                                </defs>   
+                                </svg>
+                            </div>
+
+                            <h3 class="h3 card-title">Chicken Masala</h3>
+
+                            <p class="card-text">
+                                Food is any substance consumed to provide nutritional support for an organism.
+                            </p>
+
+                            <img src="./assets/images/promo-5.png" width="300" height="300" loading="lazy" alt="Maxican Pizza" class="w-100 card-banner">
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </section>
+
+    </article>
+
+</main>
+
+
+
+
+    <!--------- JavaScript -------------->
+    <script src="./assets/js/script.js" defer></script>
+    <!--------- Ionico -------------->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  </body>
+</html>
